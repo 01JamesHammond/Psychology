@@ -11,16 +11,29 @@ main {
 .img {
   max-width: 300px; /* or any fixed size you want */
   height: auto;
+  margin: 15px;
+}
+
+.chapter-title {
+    text-align: center;
+    max-width: 250px;
+    margin: 15px;
 }
 
 .the-lesson {
     text-align: left;
+    margin: 15px;
 }
 
 .link {
     text-align: center;
     padding: 15px;
 }
+
+.flex-container {
+    display: flex;
+}
+
 
 #title {
     text-align: center;
