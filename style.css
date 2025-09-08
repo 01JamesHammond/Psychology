@@ -1,10 +1,36 @@
 header {
   background-color: mistyrose;
-  text-align: center;
-  text-
+  margin: 0px;
 }
 
 main {
-  background-color: mistyrose;
-  text-align: left;
+  background-color:rgb(221, 215, 250);
+  padding: 15px;
+}
+
+.img {
+  max-width: 300px; /* or any fixed size you want */
+  height: auto;
+}
+
+.the-lesson {
+    text-align: left;
+}
+
+.link {
+    text-align: center;
+    padding: 15px;
+}
+
+#title {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+#text{
+    text-align: center;
+    padding-left: 500px;
+    padding-right: 500px;
+    padding-bottom: 10px;
 }
