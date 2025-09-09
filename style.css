@@ -30,6 +30,11 @@ padding-bottom: 15px;
   gap: 20px;
 }
 
+.slides-wrapper-2 {
+  display: flex;
+  gap: 20px;
+}
+
 .slides{
   width: 50%;
   background-color: lightyellow;
@@ -50,4 +55,16 @@ padding-bottom: 15px;
 .link {
     text-align: center;
     padding: 15px;
+}
+
+@media (max-width: 1000px) {
+  .slides-wrapper {
+    display: block;
+    align-items: center;
+  }
+  
+  .slides-wrapper-2{
+      margin-top: 20px;
+  }
+
 }
