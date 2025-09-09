@@ -1,4 +1,4 @@
-.page-one-header{
+.page-one-header, .page-two-header{
 text-align: center;
 background-color: blanchedalmond;
 margin: 0px;
@@ -8,18 +8,24 @@ margin-bottom: 20px;
 h2{
 font-size: 15px;
 text-align: center;
-width: 25%;
 margin: auto;
 padding-bottom: 15px;
+}
+
+#chapter-2-descrption{
+  width: auto;
+  max-height: 50px;
 }
 
 .img{
   display: block;
   margin: auto;
   border-radius: 10px;
+  max-height: 150px;
+  width:auto;
 }
 
-#slides-wrapper {
+.slides-wrapper {
   display: flex;
   gap: 20px;
 }
