@@ -1,49 +1,31 @@
-header {
-  background-color: mistyrose;
-  margin: 0px;
+
+
+#slides-wrapper {
+  display: flex;
+  gap: 20px;
 }
 
-main {
-  background-color:rgb(221, 215, 250);
-  padding: 15px;
+.slides{
+  width: 50%;
+  background-color: lightyellow;
+  border: 1px solid black; 
+  padding: 10px;
 }
 
-.img {
-  max-width: 300px; /* or any fixed size you want */
-  height: auto;
-  margin: 15px;
+.slides ul{
+  padding-left: 20px;
 }
 
-.chapter-title {
-    text-align: center;
-    max-width: 250px;
-    margin: 15px;
+.slides {
 }
 
-.the-lesson {
-    text-align: left;
-    margin: 15px;   
+.subheader {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
 }
 
 .link {
     text-align: center;
     padding: 15px;
-}
-
-.flex-container {
-    display: flex;
-}
-
-
-#title {
-    text-align: center;
-    font-size: 50px;
-    margin-bottom: 0;
-}
-
-#text{
-    text-align: center;
-    padding-left: 500px;
-    padding-right: 500px;
-    padding-bottom: 10px;
 }
