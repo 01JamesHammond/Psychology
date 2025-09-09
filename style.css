@@ -1,4 +1,23 @@
+.page-one-header{
+text-align: center;
+background-color: blanchedalmond;
+margin: 0px;
+margin-bottom: 20px;
+}
 
+h2{
+font-size: 15px;
+text-align: center;
+width: 25%;
+margin: auto;
+padding-bottom: 15px;
+}
+
+.img{
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+}
 
 #slides-wrapper {
   display: flex;
@@ -14,9 +33,6 @@
 
 .slides ul{
   padding-left: 20px;
-}
-
-.slides {
 }
 
 .subheader {
